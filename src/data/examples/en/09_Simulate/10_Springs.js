@@ -141,7 +141,7 @@ function Spring (_x, _y, _s, _d, _m, _k_in, _others, _id) {
 
 	this.released = function() { 
 		this.move = false; 
-		this.rest_posx = this.y_pos;
+		this.rest_posx = this.x_pos;
 		this.rest_posy = this.y_pos;
 	}
 };
